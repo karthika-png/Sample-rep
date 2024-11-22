@@ -146,7 +146,7 @@ public class Opengoogle {
 		Thread.sleep(1000);
 
 
-		//logout
+		//logout button is clicked
 		WebElement logoutButton = driver.findElement(By.xpath("//*[@class='o_avatar o_user_avatar rounded']"));
 		logoutButton.click();
 
